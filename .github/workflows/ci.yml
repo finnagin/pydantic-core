@@ -3,6 +3,7 @@ name: ci
 on:
   push:
     branches:
+      - arm64-runner
       - main
     tags:
       - '**'
